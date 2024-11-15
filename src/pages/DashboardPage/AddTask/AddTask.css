@@ -1,0 +1,61 @@
+/* AddTask.css */
+.add-task-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    width: 50%;
+}
+
+.add-task-container:hover {
+    transform: scale(1.02);
+}
+
+.add-task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-task-form input,
+.add-task-form textarea,
+.add-task-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-task-button {
+    padding: 10px;
+    background-color: #49CCF9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-task-button:hover {
+    background-color: #38b4d9;
+}
+
+@media (max-width: 600px) {
+    .add-task-container {
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+    }
+
+    .add-task-form input,
+    .add-task-form textarea,
+    .add-task-form select {
+        padding: 8px;
+    }
+
+    .add-task-button {
+        padding: 8px;
+    }
+}
