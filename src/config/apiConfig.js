@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3001/api'; // Replace with your API base URL
+const API_BASE_URL = 'https://bookapp-api-4fs1.onrender.com/api'; // Replace with your API base URL
 
 const API_ENDPOINTS = {
     register: `${API_BASE_URL}/auth/register`,

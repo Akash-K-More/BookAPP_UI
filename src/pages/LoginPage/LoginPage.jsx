@@ -59,8 +59,8 @@ export default function LoginPage() {
       <>
         <div id="login-page">
           <div className="login-container">
-            <h1 style={{textAlign: "center"}}>ToDoApp</h1>
-            <p className='signup-page-form-title'><i style={{ color: "#7B68EE" }}>Welcome Back! Log In to Stay on Track</i></p>
+            <h1 style={{textAlign: "center"}}>ShelfSpace</h1>
+            <p className='signup-page-form-title'><i style={{ color: "#7B68EE" }}>Welcome Back!</i></p>
             <form className={`form-step`}>
               <InputField
                 label="Email"
